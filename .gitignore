@@ -1,0 +1,6 @@
+/venv/
+/MADS*Cover*Letters/
+/MADS*Resumes/
+/wordclouds/
+/__pycache__/
+/.idea/
