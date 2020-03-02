@@ -7,9 +7,9 @@ import string
 
 # PLEASE ENTER:
 #---------------------------------------------------------------------
-pdf_dirname = 'MADS Resumes'
-txt_filename = 'text_from_all_pdfs.txt'
-wordcloud_filename = 'wordcloud.png'
+pdf_dirname = 'MADS Cover Letters'
+txt_filename = 'text_from_all_letters.txt'
+wordcloud_filename = 'wordcloud_coverletters.png'
 #---------------------------------------------------------------------
 
 
@@ -41,4 +41,4 @@ def pdf_to_wordcloud(pdf_dir, txt_fname, out_fname):
 
 
 if __name__ == "__main__":
-    pdf_to_wordcloud(os.path.join(os.getcwd(), pdf_dirname), 'text_from_all_pdfs.txt', wordcloud_filename)
+    pdf_to_wordcloud(os.path.join(os.getcwd(), pdf_dirname), txt_filename, wordcloud_filename)
